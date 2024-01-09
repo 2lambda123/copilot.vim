@@ -1,0 +1,41 @@
+repo_name: 2lambda123/copilot.vim
+report_id: 73f07b44f459c0a9e5bbc9853946f98e
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:55:45+00:00'
+requested_by: tpope
+provider: github
+branch: release
+detected_tools_count: 3
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/copilot.vim/blob/release/copilot/dist/agent.js
+  detection_source: copilot/dist/agent.js
+- name: Lua
+  description: Powerful, fast, lightweight, embeddable scripting language
+  website_url: http://www.lua.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2118/128px-Lua-Logo.svg.png
+  detection_source_url: https://github.com/2lambda123/copilot.vim
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/copilot.vim
+  detection_source: Repo Metadata
